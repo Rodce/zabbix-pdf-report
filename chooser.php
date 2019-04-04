@@ -44,21 +44,21 @@ header( 'Content-type: text/html; charset=utf-8' );
 <html>
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-	<title>Zabbix Dynamic PDF Report</title>
-	<meta charset="utf-8" />
-	<link rel="shortcut icon" href="/zabbix/images/general/zabbix.ico" />
-	<link rel="stylesheet" type="text/css" href="css/zabbix.default.css" />
-	<link rel="stylesheet" type="text/css" href="css/zabbix.color.css" />
-	<link rel="stylesheet" type="text/css" href="css/zabbix.report.css" />
-	<link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.min.css"/ >
-	<link rel="stylesheet" type="text/css" href="css/jquery.tablesorter.pager.min.css"/ >
-	<link rel="stylesheet" type="text/css" href="css/select2.css"/ >
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.datetimepicker.min.js"></script>
-	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="js/jquery.tablesorter.combined.min.js"></script> 
-	<script type="text/javascript" src="js/select2.min.js"></script> 
-	<script>
+	        <title>Zabbix Dynamic PDF Report</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="../favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="css/zabbix.default.css" />
+        <link rel="stylesheet" type="text/css" href="css/zabbix.color.css" />
+        <link rel="stylesheet" type="text/css" href="css/zabbix.report.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css"/ >
+        <link rel="stylesheet" type="text/css" href="css/tablesorter.css"/ >
+        <link rel="stylesheet" type="text/css" href="css/select2.css"/ >
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.datetimepicker.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+        <script type="text/javascript" src="js/select2.min.js"></script>
+        <script>
 		$(function(){
 			$('#ReportHost').click(function(){
 				$('#s_ReportHost').prop('disabled',false);
